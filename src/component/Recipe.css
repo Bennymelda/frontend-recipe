@@ -1,0 +1,418 @@
+body{
+    background-color: whitesmoke;
+    
+}
+.ten{
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+.recipe{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.divs{
+    display: grid;
+    position: relative;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    padding-bottom: 20px;
+}
+.b{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: unset;
+    color: #283d2b;
+    
+    margin-top: 10px;
+}
+.ion{
+    display: flex;
+    background-color: #ffff;
+    align-items: center;
+    width: 290px;
+    padding: 0px 10px;
+    gap: 5px;
+    color: #283d2b;
+    border-radius: 5px;
+    
+}
+.ico{
+    font-size: 20px;
+    color: #283d2b;
+    
+}
+input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px 0px;
+    background-color: #ffff;
+    
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+input::placeholder{
+    font-weight: 500;
+    background-color: #ffff;
+
+}
+.selected-recipe {
+
+  padding: 20px;
+
+
+  width: 500px;
+  margin-bottom: 40px; /* space between selected and others */
+
+}
+.sip{
+    padding-left: 50px;
+}
+.svg{
+    width: 400px;
+    border: 8px solid white;
+}
+.spie{
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+    margin-bottom: 10PX;
+}
+.pass{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.list{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 5px;
+}
+.ame{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0e3014;
+}
+.same{
+   
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    position: absolute;
+    cursor: pointer;
+    gap: 10px;
+    left: 60px;
+    padding: 10px 53px;
+    background-color: #ffff;
+}
+.sames{
+   cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    position: absolute;
+    gap: 10px;
+    left: 240px;
+    padding: 10px 53px;
+    background-color: #ffff;
+}
+.prep,.serve,.cook{
+    font-weight: 500;
+}
+.one{
+    display: flex;
+    gap: 10px;
+}
+.no{
+background-color: white;
+border: 5px solid white;
+border-radius: 10px;
+width: 320px;
+padding:0px 5px;
+margin: 0 auto;
+cursor: pointer;
+}
+.in:hover{
+    scale: 0.9;
+}
+.svg:hover{
+    scale: 0.9;
+}
+
+.box{
+    padding: 10px 50px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.desc{
+    font-size: 15px;
+    font-weight: 400;
+    color: #283d2b;
+}
+.name{
+    font-size: 18px ;
+    font-weight: bold;
+    color: #0e3014;
+    margin-bottom: 10px;
+}
+.don{
+    width: 550px;
+    margin: 0 auto;
+
+}
+.contain{
+    text-align: center;
+    display: flex;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #283d2b;
+}
+.h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0e3014;
+}
+.icon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.max{
+    font-size: 15px;
+    font-weight: 500;
+}
+.ni{
+    display: flex;
+    position: relative;
+ padding-left: 10px;
+    align-items: center;
+    background-color:#ffff;
+    width: 160px;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media (max-width: 768px){
+   .h1{
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 40px;
+   } 
+  
+   .sip{
+    padding: 0px;
+   }
+   .selected-recipe{
+    width: 100%;
+   }
+   .contain{
+    text-align: start;
+    font-size: 20px;
+   }
+   .don{
+    width: 100%;
+   }
+   .ame{
+    font-size: 30px;
+    padding-bottom: 10px;
+   }
+   .ten{
+    padding: 0px 20px;
+   }
+   .pass{
+    font-size: 24px;
+   }
+   .list{
+    font-size: 19px;
+   }
+   
+   .svg{
+    width: 70%;
+    border-radius: 5px;
+    border: 8px solid white;
+   }
+   .divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    gap: 20px;
+   }
+   .name{
+    font-size: 20px;
+   }
+   .desc{
+    font-size: 18px;
+   }
+   .head{
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+    padding-right: 10px;
+    
+   }
+   .no{
+    width:100%;
+    margin-bottom: 50px;
+   }
+   .sames{
+    left: 200px;
+   }
+   .same{
+    left: 20px;
+   }
+}
+@media(max-width:480px){
+    .contain{
+        width: 400px;
+        font-size: 20px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+
+    }
+    .list{
+        font-size: 18px;
+    }
+    .svg{
+        width: 80%;
+    }
+     .ni{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+
+        position: unset;
+        align-items: center;
+        justify-content: center;
+    }
+    .ion{
+      
+      width: 400px;
+       
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .divs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+   
+}
+@media(max-width: 360px){
+    .ten{
+        padding: 10px 20px;
+    }
+    .h1{
+        text-align: start;
+        font-size: 35px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .contain{
+        text-align: start;
+       
+        line-height: 1.7;
+
+    }
+    .don{
+        width: 330px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        gap: 10px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+
+    }
+    .ion{
+      
+      width: 340px;
+       
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .ni{
+        width: 340px;
+        margin: 0 auto;
+        text-align: center;
+
+        position: unset;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .divs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .selected-recipe{
+        width: 340px;
+        padding: 0px;
+    }
+    .ame{
+        font-size: 20px;
+    }
+    .spie{
+        display: flex;
+        flex-direction: column;
+    }
+    .svg{
+        width: 320px;
+        
+    }
+    .sip{
+        padding-left: 0;
+    }
+    .same,.sames{
+        /*left:155px;*/
+            display: flex;
+    flex-direction: column;
+   
+    cursor: pointer;
+    gap: 10px;
+    position: unset;
+    
+    padding: 10px 53px;
+    background-color: #ffff;
+      
+    }
+}

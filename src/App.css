@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 400px;
+}
+nav{
+  display: flex;
+  gap: 30px;
+ 
+}
+a{
+  font-size: 18px;
+  color: #283d2b;
+  font-weight: 500;
+}
+a:hover{
+  color: #3a9147;
+}
+.f{
+    display: flex;
+    gap: 10px;
+}
+button:hover{
+  background-color: #27422b;
+  border: none;
+  
+}
+
+
+ a.active {
+  color: red;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+ .burger{
+    display: none;
+    font-size: 24px;
+  }
+
+.nem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.one{
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.pan{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media(max-width: 768px){
+/* Fix for mobile dropdown under burger */
+
+  .one {
+    position: relative; /* This allows .nav to position under it */
+  }
+
+  .burger {
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 35px; /* push it below the header */
+    right: 10px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    left: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: none; /* hidden by default */
+    z-index: 5;
+  }
+
+  .nav.show {
+    display: flex; /* show when burger is clicked */
+  }
+
+  .nav nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav button {
+    align-self: flex-start;
+  }
+ 
+}
+@media(max-width: 480px){
+/* Fix for mobile dropdown under burger */
+
+  .one {
+    position: relative; /* This allows .nav to position under it */
+  }
+
+  .burger {
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 35px; /* push it below the header */
+    right: 10px;
+    left: 200px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: none; /* hidden by default */
+    z-index: 5;
+  }
+
+  .nav.show {
+    display: flex; /* show when burger is clicked */
+  }
+
+  .nav nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav button {
+    align-self: flex-start;
+  }
+
+}
+
+@media(max-width: 360px){
+/* Fix for mobile dropdown under burger */
+
+  .one {
+    position: relative; /* This allows .nav to position under it */
+  }
+
+  .burger {
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 35px; /* push it below the header */
+    right: 10px;
+    left: 190px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: none; /* hidden by default */
+    z-index: 5;
+  }
+
+  .nav.show {
+    display: flex; /* show when burger is clicked */
+  }
+
+  .nav nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav button {
+    align-self: flex-start;
+  }
+ 
+
+
+}

@@ -1,0 +1,80 @@
+{
+    "array" : [
+        {
+        "id":1,
+        "img":"/images/Healthy-Mediterranean-Chickpea-Salad.jpg",
+        "name":"Mediterranean Chickpea salad",
+        "desc":"A refreshing protein-packed salad tossed in a lemon-olive oil dressing",
+        "serving":"2",
+        "prep":"10 mins",
+        "cook":"0 min"
+    },{
+                "id":8,
+        "img":"/images/banana-oat-pancakes-2.jpg",
+        "name":"Banana Oat Pancakes",
+        "desc":"Flour-free pancakes sweetened naturally with ripe bananas",
+        "serving":"2",
+        "prep":"5 mins",
+        "cook":"10 mins"
+    },{
+
+        "id":7,
+        "img":"/images/706c0-vegetarian-mexican-lentil-soup-recipe.jpg",
+        "name":"Lenil & Spinach Soup",
+        "desc":"A hearty 30-minutes soup rich in plant protein and iron",
+        "serving":"4",
+        "prep":"10 mins",
+        "cook":"20 mins"
+
+
+    },{
+         "id":4,
+        "img":"/images/VEGGIE.webp",
+        "name":"Quinoa Veggie Power Bowl",
+        "desc":"A balanced bowl  of fluffy quinoa, roasted veggies and healthy fats.",
+        "serving":"2",
+        "prep":"10 mins",
+        "cook":"15 mins"
+        
+    },{
+
+        "id":5,
+        "img":"/images/-Black-Bean-Tacos.jpg",
+        "name":"Sweet Potatoes Blacck Bean Tacos",
+        "desc":"Smoky roasted sweet paotatoes and black beqns tucked into warm tortillas.",
+        "serving":"3",
+        "prep":"10 mins",
+        "cook":"15 mins"
+    },{
+
+          "id":3,
+        "img":"/images/pan-seared-salmon.webp",
+        "name":"One-Pan Lemon Garlic Salmon With....",
+        "desc":"A 15-minute weeknight dinner of flaky salmon and tender asparagus.",
+        "serving":"2",
+        "prep":"5 mins",
+        "cook":"12 mins"
+
+
+    },{
+                     "id":6,
+        "img":"/images/Untitled-design-84-1024x683.jpg.webp",
+        "name":"Greek Yogurt Parfiat",
+        "desc":"Layer of creamy yogurt, fresh berries and crunchy oats for a high protein snack.",
+        "serving":"",
+        "prep":"5 mins",
+        "cook":"0 min" 
+    },{
+                        "id":2,
+        "img":"/images/avocado-toast-featured.webp",
+        "name":"Avacado & Tomato Wholegrain Toast",
+        "desc":"Creamy avacado spread over toasted wholegrain bread, topped with juicy tomatoes.",
+        "serving":"1",
+        "prep":"5 mins",
+        "cook":"5 mins"
+
+       
+
+    }
+]
+}

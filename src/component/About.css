@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+.photo{
+    width: 600px;
+    border-radius: 5px;
+}
+.pas{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.find{
+    width: 500px;
+    font-size: 18px;
+}
+.us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   color: #283d2b;
+}
+.gene{
+    padding: 10px 50px;
+    background-color: whitesmoke;
+}
+.our{
+    font-size: 22px;
+    font-weight: bold;
+    
+    width: 620px;
+}
+.lists{
+    font-size: 15px;
+    line-height: 1.9;
+    
+}
+.sis{
+    margin-top:50px ;
+    margin-bottom: 10px;
+    
+}
+.bis{
+animation: drive 5s ease forwards;
+}
+@keyframes drive{
+    from{transform: translateX(-700px)}
+    to{transform: translateX(10px)}
+
+}
+.nage{
+animation: drive 5s ease forwards;
+}
+@keyframes drive{
+    from{transform: translateX(-700px)}
+    to{transform: translateX(0px)}
+
+}
+.res{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.dir{
+    width: 400px;
+    border-radius: 5px;
+}
+.choice{
+    width: 500px;
+}
+.ss{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.reay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    margin-top: 50px;
+    background-color:#e3f3e6 ;
+}
+.read{
+font-size: 30px;
+font-weight: bold;
+}
+.t{
+    font-size: 15px;
+}
+
+@media(max-width:768px){
+    .pas{
+        display: flex;
+        flex-direction: column;
+    }
+    .find{
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .gene{
+        padding: 0px 20px;
+    }
+    .nage{
+        width: 720px;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .photo{
+        width: 100%;
+    }
+    ul{
+        padding-left: 20px;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .reay{
+        padding-bottom: 50px;
+    }
+    .dir{
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 10px;
+    }
+    .nemss{
+        font-size: 20px;
+    }
+    .choice{
+        width: 100%;
+    }
+    .our{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    li{
+     font-size: 20px;
+    }
+    .sis{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 480px){
+.pas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.read{
+    font-size: 40px;
+    text-align: center;
+}
+.t{
+    width: 220px;
+}
+.dir{
+    width: 430px;
+}
+.nemss{
+    font-size: 18px;
+}
+.find{
+    font-size: 18px;
+}
+.nage{
+    width: 450px;
+    padding-left: 20px;
+}
+li{
+    font-size: 18px;
+}
+.our{
+    font-size: 20px;
+    width: 400px;
+}
+}
+@media(max-width: 360px){
+.pas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gene{
+    padding: 0px 20px;
+}
+.find{
+    width: 340px;
+    font-size: 16px;
+}
+.nage{
+    margin-top: 20px;
+    width: 340px;
+}
+.photo{
+    width: 100%;
+}
+.sis{
+    width: 330px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.our{
+    font-size: 18px;
+    width: 320px;
+}
+ul{
+    padding: 0px 5px;
+}
+.all{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.choice{
+    width: 330px;
+}
+.dir{
+    width: 340px;
+    margin-top: 20px;
+}
+.reay{
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+.read{
+    font-size: 35px;
+}
+.t{
+    width: 220px;
+}
+}
+
