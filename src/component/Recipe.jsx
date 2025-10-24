@@ -98,14 +98,19 @@ const filteredRecipes = item.filter((i) => {
           <div>
             <div className="ni" onClick={() => setShowPrep(!showPrep)}>
               <span className="max">Max Prep Time</span>
+              
               {showPrep ? <RiArrowDropUpLine className="icon" /> : <RiArrowDropDownLine className="icon" />}
             </div>
             {showPrep && (
             <div className="same">
             {[0,5,10].map((time) =>(
+              
               <span key={time} onClick={() => setPrepTime(time)}>
+              
               {time} mins
+            
               </span>
+              
             ))}
               
             </div>

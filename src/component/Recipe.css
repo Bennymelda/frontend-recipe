@@ -128,6 +128,7 @@ input::placeholder{
     position: absolute;
     gap: 10px;
     left: 240px;
+    color: #0e3014;
     padding: 10px 53px;
     background-color: #ffff;
 }
@@ -198,6 +199,7 @@ input::placeholder{
 .icon{
     font-size: 40px;
     cursor: pointer;
+    color: #283d2b;
 }
 .max{
     font-size: 15px;
@@ -382,10 +384,10 @@ input::placeholder{
         width: 340px;
         margin: 0 auto;
         text-align: center;
-
         position: unset;
         align-items: center;
         justify-content: center;
+        margin-left: 5px;
     }
   
     .divs{

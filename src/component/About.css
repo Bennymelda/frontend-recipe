@@ -42,6 +42,7 @@ align-items: center;
     color: #0e3014;
 }
 .sis{
+    
     margin-top:50px ;
     margin-bottom: 10px;
     
@@ -188,7 +189,7 @@ font-weight: bold;
 }
 .nage{
     width: 460px;
-    padding-left: 20px;
+    padding:10px 20px;
 }
 li{
     font-size: 18px;

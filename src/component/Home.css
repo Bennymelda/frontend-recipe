@@ -239,7 +239,8 @@ font-size: 15px;
         width: 370px;
     }
     .p{
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 20px;
     }
     .i{
         font-size: 25px;
@@ -255,8 +256,6 @@ font-size: 15px;
     }
     .sec{
         width: 400px;
-    
-        
     }
     .a,.aa{
         font-size: 18px;

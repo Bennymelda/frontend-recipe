@@ -50,7 +50,7 @@ export function About(){
             lesuirely but never wasteful</span>
         </div>
         <div className="choice">
-            <p className="ss">Sustinable Chioces</p>
+            <p className="ss">Sustainable Chioces</p>
             <span className="nemss">Short ingredient lidt cutt down on food wash and carbon footprint. while plant forward 
             dishes keep things planet friendly</span>
         </div>
