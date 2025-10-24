@@ -63,6 +63,7 @@ button{
     padding: 5px;
     background-color: #ffff;
     margin-bottom: 5px;
+    color: #283d2b;
 }
 .third{
     display: flex;
@@ -140,6 +141,9 @@ font-size: 15px;
     font-weight: bold;
     color: #0e3014;
 
+}
+.ups{
+    color: #0e3014;
 }
 
 .s{

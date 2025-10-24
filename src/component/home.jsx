@@ -14,7 +14,7 @@ export function Home(){
 <div className="first">
     <h1>Healthy meals, zero fuss</h1>
     <div className="pop">
-        <span>
+        <span className="ups">
             Discover eight quick, whole food recipes that you can cook tonight,no processed junks, -no guesswork.
         </span>
     </div>

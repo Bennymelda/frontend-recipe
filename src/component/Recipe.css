@@ -92,6 +92,7 @@ input::placeholder{
     font-size: 18px;
     font-weight: bold;
     margin-top: 5px;
+    color: #0e3014;
     margin-bottom: 10px;
 }
 .list{
@@ -99,6 +100,7 @@ input::placeholder{
     font-weight: 400;
     line-height: 1.7;
     margin-top: 5px;
+    color: #0e3014;
 }
 .ame{
     font-size: 35px;
@@ -114,6 +116,7 @@ input::placeholder{
     cursor: pointer;
     gap: 10px;
     left: 60px;
+    color: #0e3014;
     padding: 10px 53px;
     background-color: #ffff;
 }
@@ -150,7 +153,9 @@ cursor: pointer;
 .svg:hover{
     scale: 0.9;
 }
-
+input{
+    color: #0e3014;
+}
 .box{
     padding: 10px 50px;
     width: 100%;
@@ -161,6 +166,9 @@ cursor: pointer;
     font-size: 15px;
     font-weight: 400;
     color: #283d2b;
+}
+input::placeholder{
+    color: #0e3014;
 }
 .name{
     font-size: 18px ;
@@ -194,6 +202,7 @@ cursor: pointer;
 .max{
     font-size: 15px;
     font-weight: 500;
+    color: #0e3014;
 }
 .ni{
     display: flex;
@@ -281,7 +290,7 @@ cursor: pointer;
 }
 @media(max-width:480px){
     .contain{
-        width: 400px;
+        width: 340px;
         font-size: 20px;
     }
     .head{
@@ -305,7 +314,7 @@ cursor: pointer;
         width: 80%;
     }
      .ni{
-        width: 400px;
+        width: 380px;
         margin: 0 auto;
         text-align: center;
 
@@ -315,7 +324,7 @@ cursor: pointer;
     }
     .ion{
       
-      width: 400px;
+      width: 380px;
        
         text-align: center;
         align-items: center;
