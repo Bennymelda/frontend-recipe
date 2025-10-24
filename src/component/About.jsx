@@ -57,7 +57,7 @@ export function About(){
         </div>
         </div>
            
-            <div>
+            <div className="day">
                 <img src="/images/family kitchen.jpg" className="dir" alt="" />
             </div>
         </div>

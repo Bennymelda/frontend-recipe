@@ -255,7 +255,7 @@ font-size: 15px;
         padding-right: 20px;
     }
     .sec{
-        width: 400px;
+        width: 100%;
     }
     .a,.aa{
         font-size: 18px;
@@ -291,7 +291,7 @@ font-size: 15px;
         text-align: center;
     }
     .n{
-        width: 430px;
+        width: 100%;
     }
 }
     

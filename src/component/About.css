@@ -179,7 +179,7 @@ font-weight: bold;
     width: 220px;
 }
 .dir{
-    width: 430px;
+    width: 100%;
 }
 .nemss{
     font-size: 18px;
@@ -188,8 +188,8 @@ font-weight: bold;
     font-size: 18px;
 }
 .nage{
-    width: 460px;
-    padding:10px 20px;
+    width: 100%;
+    padding:10px 0;
 }
 li{
     font-size: 18px;
